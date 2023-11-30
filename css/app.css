@@ -116,6 +116,11 @@ footer {
   padding-bottom: 4rem;
 }
 
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .nama-cover {
   padding-bottom: 25rem;
 }
