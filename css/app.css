@@ -110,17 +110,6 @@ body::-webkit-scrollbar {
   margin-bottom: -0.4rem;
 }
 
-footer {
-  background-color: #111111 !important;
-  margin-top: -0.4rem;
-  padding-bottom: 4rem;
-}
-
-footer a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
 .nama-cover {
   padding-bottom: 25rem;
 }
@@ -134,4 +123,23 @@ footer a {
 
 .home .heading-home {
   padding-bottom: 20rem;
+}
+
+.maps {
+  border-radius: 30px;
+}
+
+.tempat {
+  font-weight: 700;
+}
+
+footer {
+  background-color: #111111 !important;
+  margin-top: -0.4rem;
+  padding-bottom: 4rem;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
 }
