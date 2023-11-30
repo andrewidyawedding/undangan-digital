@@ -43,9 +43,25 @@ body::-webkit-scrollbar {
 
 .btn-music {
   position: fixed;
-  bottom: 9vh;
+  bottom: 5rem;
   right: 2vh;
   z-index: 1055;
+  font-size: 2rem;
+  animation: rotating 4s linear infinite;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .loading-page {
@@ -142,4 +158,9 @@ footer a {
 
 .maps {
   border-radius: 20px;
+}
+
+.navbar {
+  background-color: #bdbdbd36;
+  backdrop-filter: blur(5px);
 }
