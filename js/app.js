@@ -168,16 +168,16 @@ const util = (() => {
 
     let div = document.createElement("div");
     div.classList.add("m-2");
-    div.innerHTML = `<p class="mt-0 mb-1 mx-0 p-0 text-light">Kepada Yth Bapak/Ibu/Saudara/i</p><h2 class="text-light">${escapeHtml(
+    div.innerHTML = `<p class="mt-0 mb-1 mx-0 p-0 text-light">Kami Turut Mengundang</p><h1 class="text-light">${escapeHtml(
       name
-    )}</h2>`;
+    )}</h1>`;
 
     document.getElementById("form-nama").value = name;
     document.getElementById("nama-tamu").appendChild(div);
   };
 
   const animation = async () => {
-    const duration = 120 * 1000;
+    const duration = 480 * 1000;
     const animationEnd = Date.now() + duration;
     let skew = 1;
 
